@@ -1,0 +1,14 @@
+def armstrong(x):
+    s=0
+    l=len(str(x))
+    while x!=0:
+        p=x%10
+        x=x//10
+        s+=p**l
+    return(s)
+lb=int(input("lb:"))
+d=armstrong(lb)
+if d==lb:
+    print("yes")
+else:
+    print("no")
