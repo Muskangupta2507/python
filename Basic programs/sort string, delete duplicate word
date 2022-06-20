@@ -1,0 +1,11 @@
+phrase= input("write:")
+p=phrase.split(' ')
+
+l= []
+for i in p:
+    if i not in l:
+        l.append(i)
+    else:
+        continue
+l.sort()
+print((' ').join(l))
