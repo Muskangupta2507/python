@@ -1,0 +1,8 @@
+'''15. Program that calculates the number of rectangular tiles required to cover a rectangular floor if
+	the dimensions of the floor and the dimensions of a tile are entered by the user.'''
+L=int(input("Enter the length of floor(in cm):"))
+B=int(input("Enter the width of floor(in cm):"))
+l=int(input("Enter the length of tile(in cm):"))
+b=int(input("Enter the width of tile(in cm):"))
+N=(L*B)/(l*b)
+print("The number of tiles are:",N)
