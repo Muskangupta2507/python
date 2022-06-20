@@ -1,0 +1,7 @@
+def reverse(x):
+    s=x.split(' ')
+    d=[h[::-1] for h in s]
+    f=' '.join(d)
+    return(f)
+n=input()
+print(reverse(n))
