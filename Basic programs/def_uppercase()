@@ -1,0 +1,15 @@
+'''WAP to define a function to uppercase(s) which takes a string s
+to convert string into uppercase string without using predefined method'''
+
+def uppercase(s):
+    d=len(s)
+    y=""
+    for i in range(d):
+        if s[i]>=chr(97) and s[i]<=chr(122):
+            y +=chr(ord(s[i])-32)
+        else:
+            y +=chr(ord(s[i]))
+    return(y)
+a=input()
+c=uppercase(a)
+print(c)
