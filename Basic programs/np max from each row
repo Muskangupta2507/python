@@ -1,0 +1,10 @@
+import numpy as np
+
+r=int(input("rows:"))
+c=int(input("columns:"))
+x=list(map(int,input().split()))
+z=np.array(x).reshape(r,c)
+print(z)
+
+res = z.max(axis=1)
+print(res)
