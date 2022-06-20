@@ -1,0 +1,5 @@
+'''Program to find the hypotenuse of a right angled triangle, when the base and height are entered by the user.'''
+h=int(input("Enter the height:"))
+b=int(input("Enter the base:"))
+y=(h**2+b**2)**0.5
+print("hypotenuse of right angle triangle is:",y) 
