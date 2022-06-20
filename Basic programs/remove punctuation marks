@@ -1,0 +1,13 @@
+'''WAP to enter the string and then print the resultant string
+after removing punctuation marks'''
+
+import string
+p=input("Enter the string:")
+r=string.punctuation
+d=''
+for i in p:
+    if i in r:
+        pass
+    else:
+        d=d+i
+print(d)
