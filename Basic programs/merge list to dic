@@ -1,0 +1,7 @@
+""" convert list to dict as 1st list is keys and 2nd is values"""
+k=['two','three','four']
+v=[2,3,4]
+d=dict()
+for i in range (len(k)):
+    d.update({k[i]:v[i]})
+print(d)
