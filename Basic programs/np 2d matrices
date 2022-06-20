@@ -1,0 +1,7 @@
+import numpy as np
+  
+R = int(input("rows:"))
+C = int(input("columns:"))
+entries = list(map(int, input().split()))
+X= np.array(entries).reshape(R, C)
+print(X)
