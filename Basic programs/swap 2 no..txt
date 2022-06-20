@@ -1,0 +1,5 @@
+'''Program to input two numbers and print the swapped values of them.'''
+a=int(input("Enter the value 1:"))
+b=int(input("Enter the value 2:"))
+print("After swapping value 1 is:",b)
+print("After swapping value 2 is:",a
