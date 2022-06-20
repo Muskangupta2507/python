@@ -1,0 +1,3 @@
+p=input("Enter the string.")
+s=p[-1::-1]
+print(s)
