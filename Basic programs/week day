@@ -1,0 +1,18 @@
+''' Write a program to input week number and print week day. '''
+a=int(input("Enter the week number:"))
+if(a==1):
+    print("Week day is MONDAY.")
+elif(a==2):
+    print("Week day is TUESDAY.")
+elif(a==3):
+    print("Week day is WEDNESDAY.")
+elif(a==4):
+    print("Week day is THURSDAY.")
+elif(a==5):
+    print("Week day is FRIDAY.")
+elif(a==6):
+    print("Week day is SATURDAY.")
+elif(a==7):
+    print("Week day is SUNDAY.")
+else:
+    print("The number is invalid.")
