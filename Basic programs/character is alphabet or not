@@ -1,0 +1,8 @@
+''' WAP to check whether a character is alphabet or not.'''
+ch=input("Enter the character:")
+if(ch>='a' and ch<='z'):
+    print("The character is alphabet.")
+elif(ch>='A' and ch<='Z'):
+    print("The character is alphabet.")
+else:
+    print("The character is not alphabet.")
