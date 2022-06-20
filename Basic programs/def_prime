@@ -1,0 +1,14 @@
+''' WAP to define a function is prime(n) which takes a number and thyen check whether it is prime or not.
+if it is prime, then returns True otherwise returns. print "Prime" if it returned value is True otherwise print "Not Prime".'''
+
+def prime(n):
+    for i in range(2,n):
+        if n%i==0:
+            return(False)
+        else:
+            return(True)
+num=int(input())
+if prime(num)== True:
+    print("Prime")
+else:
+    print("Not Prime")
