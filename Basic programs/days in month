@@ -1,0 +1,10 @@
+'''Write a C program to input month number and print number of days in that month.'''
+a=int(input("Enter the number of month:"))
+if(a==1 or a==3 or a==5 or a==7 or a==8 or a==10 or a==12):
+    print("Total number of days are 31.")
+elif(a==2):
+    print("Total number of days are 28 but leap year contains 29 days.")
+elif(a==4 or a==6 or a==9 or a==11):
+    print("Total number of days are 30.")
+else:
+    print("The number is invalid.")
