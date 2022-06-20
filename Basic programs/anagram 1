@@ -1,0 +1,12 @@
+p=input("Enter the string1:")
+s=input("Enter the string2:")
+i=0
+count=0
+r=len(p)
+for i in p:
+    if i in s:
+            count=count+1
+if(count==r):
+    print("anagram.")
+else:
+    print("not anagram.")
