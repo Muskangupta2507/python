@@ -1,0 +1,6 @@
+p=input("Enter the string.")
+i=0
+count=0
+for i in p:
+    count=count+1
+print(count)
