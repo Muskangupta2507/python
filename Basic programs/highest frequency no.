@@ -1,0 +1,11 @@
+''' same no. should not come in the list so how many list to make'''
+ai=list(map(int,input().split()))
+max = 0
+res = ai[0]
+for i in ai:
+    freq = ai.count(i)
+    if freq > max:
+        max = freq
+        res = i
+print ("maximum lists: " + str(max))
+print("highest frequency no:" + str(res))
