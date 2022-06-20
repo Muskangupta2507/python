@@ -1,0 +1,27 @@
+''' Write a program to count total number of notes in given amount.'''
+a=int(input("Enter the number of amount:"))
+note1=note2=note3=note4=note5=note6=0
+if(a>=500):
+    note1=a//500
+    a=a-note1*500
+    print("It requires",note1,"notes of 500.")
+if(a>=100):
+    note2=a//100
+    a=a-note2*100
+    print("It requires",note2,"notes of 100.")
+if(a>=50):
+    note3=a//50
+    a=a-note3*50
+    print("It requires",note3,"notes of 50.")
+if(a>=10):
+    note4=a//10
+    a=a-note4*10
+    print("It requires",note4,"notes of 10.")
+if(a>=5):
+    note5=a//5
+    a=a-note5*5
+    print("It requires",note5,"notes of 5.")
+if(a>=1):
+    note6=a//1
+    a=a-note6*1
+    print("It requires",note6,"notes of 1.")
