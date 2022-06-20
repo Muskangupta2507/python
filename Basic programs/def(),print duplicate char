@@ -1,0 +1,6 @@
+def DUPLICATE(x):
+    for char in set(x):
+        counts=x.count(char)
+        print(char,counts)
+c=input("Enter a word = ")
+DUPLICATE(c)
