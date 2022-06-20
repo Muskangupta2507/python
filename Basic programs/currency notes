@@ -1,0 +1,23 @@
+'''11. Program to find the number of currency notes of each type (Rs. 2000, Rs. 500 and Rs. 100),
+	when the total number of currency notes counted altogether is minimum and there must be
+	atleast a 100 rupee note dispensed. The amount to be withdrawn is to be entered by the user.'''
+a=int(input("Enter the amount:"))
+n=0
+if(a>=100 and a<500):
+    n=a/100
+    print("The number of 100 notes you require is:",(int (n)))
+if(a>=500 and a<2000):
+    n=a/500
+    print("The number of 500 notes you require is",(int(n)))
+    m= a%500
+    n=m/100
+    print("The number of 100 notes you require is:",(int (n)))
+if(a>=2000):
+    n=a/2000
+    print("The number of 2000 notes you require is",(int(n)))
+    m= a%2000
+    n=m/500
+    print("The number of 500 notes you require is:",(int (n)))
+    m= a%500
+    n=m/100
+    print("The number of 100 notes you require is:",(int (n)))
